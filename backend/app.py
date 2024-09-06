@@ -1,11 +1,8 @@
-from flask import Flask, url_for
+from flask import flask
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = sqlite:///db.sqlite
+app.config['SQLALCHEMY_TRACKK_MODIFICATIONS'] = False
 
-@app.route('/')
-def home():
-    return "<h1>Hello wordl!</h1>"
-
-
-if __name__ == '__main__':
-    app.run(debug = True)
+db = SQLAlchemy(app)

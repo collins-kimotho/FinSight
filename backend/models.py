@@ -1,2 +1,0 @@
-from _flask_sqlalchemy import SQLAlchemy
-flask

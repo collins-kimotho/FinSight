@@ -53,11 +53,15 @@ a {
     font-size: 2.5rem;
     color: var(--primary-color);
     font-style: italic;
+    font-weight: 700;
 
 }
 
 @media screen and (max-width:600px){
     .container .list {
         display: none;
+    }
+    .logo {
+        font-size: 2rem;
     }
 }

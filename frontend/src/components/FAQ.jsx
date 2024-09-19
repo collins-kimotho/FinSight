@@ -18,7 +18,12 @@ const data = {
     {
       title: "Is Finsight free to use?",
       content: "Yes, Finsight offers a free version with basic features, but you can upgrade to a premium plan for additional tools."
+    },
+    {
+      title: "Can I track my investments?",
+      content: "Yes, Finsight allows you to monitor and track your investments in real-time."
     }
+
   ]
 };
 
@@ -43,7 +48,7 @@ const config = {
 
 const FAQ = () => {
   return (
-    <div className="faq">
+    <div className="faq" id='faq'>
       <div className="container">
         <div className="col-1">
           <h2>FAQ</h2>

@@ -1,0 +1,13 @@
+.footer {
+    background-color: hsla(0, 0%, 0%, 0.575);
+    height: 20vh;
+    margin: auto;
+    padding: 4rem 1rem 0 1rem;
+}
+
+.footer .container {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}

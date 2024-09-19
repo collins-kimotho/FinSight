@@ -1,25 +1,24 @@
 import React from 'react'
 import './Navbar.css'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+
 
 const Navbar = () => {
   return (
-   <div className="navbar">
+   <div className="navbar" id='home'>
     <div className="container">
         <div className="logo">
             <p>FinSight</p>
         </div>
         <ul className="list">
             <li className='list-item'>
-                <a href='#'>Home</a>
+                <Link  to='hero' spy={true} smooth={true} offset={50} duration={500}>Home</Link>
             </li>
             <li className='list-item'>
-                <a href='#'>Features</a>
+                <Link  to='features' spy={true} smooth={true} offset={-20} duration={500}>Features</Link>
             </li>
             <li className='list-item'>
-                <a href='#'>Testimonials</a>
-            </li>
-            <li className='list-item'>
-                <a href='#'>Demo</a>
+                <Link  to='faq' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
             </li>
         </ul>
         <div className="login">

@@ -5,7 +5,7 @@ import { FaMoneyBill, FaArrowRight } from 'react-icons/fa';
 
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" id='features'>
         <div className="container">
             <div className="col-1">
                 <h2>Features</h2>

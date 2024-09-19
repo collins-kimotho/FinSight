@@ -27,25 +27,25 @@
     margin: 10px;
 }
 
-.container p:first-of-type {
+.hero .container p:first-of-type {
     color: var(--primary-color);
 }
 
-.container p:nth-child(2){
+.hero .container p:nth-child(2){
     font-size: 3rem;
 }
 
-.container p:nth-child(3){
+.hero .container p:nth-child(3){
     font-size: 1.5rem;
     padding-bottom: 2rem;
 }
 
-button {
+.hero button {
     width: auto;
     max-width: 200px;
-    font-size: 1em;
+    font-size: 1.2rem;
 }
-span {
+.hero span {
     font-style: italic;
     font-weight: 900;
     color: var(--primary-color);

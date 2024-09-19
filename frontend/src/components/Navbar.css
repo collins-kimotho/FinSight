@@ -1,0 +1,63 @@
+.navbar{
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 3s ease-in;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+a {
+    color: hsl(0, 0%, 0%);
+}
+
+.container .login ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.container .login ul .Signup{
+    background-color: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container .login ul .Signup:hover{
+    background-color: var(--primary-dark);
+
+}
+.logo {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-style: italic;
+
+}
+
+@media screen and (max-width:600px){
+    .container .list {
+        display: none;
+    }
+}

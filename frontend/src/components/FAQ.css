@@ -2,12 +2,11 @@
     margin: auto;
     padding: 4rem 1rem 0 1rem;
     width: 100%;
-    /* background-color: var(--secondary-color); */
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .faq .container {
-    width: 1240px;
+    max-width: 1240px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,8 +20,9 @@
 }
 
 .faq p{
-    font-size: 3rem;
-
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
 
 .far .container .col-2 {
@@ -32,12 +32,13 @@
 
 @media screen and (max-width: 600px) {
     .faq {
-        margin: auto;
+        width: 100%;
+        
     }
     .faq .container{
         display: flex;
         flex-direction: column;
-        padding: 4rem;
+        /* padding: 4rem; */
         align-items: center;
         justify-content: center;
     }

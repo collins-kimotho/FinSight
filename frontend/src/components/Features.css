@@ -35,7 +35,7 @@
 
 .features .col-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
     /* align-items: center;
     justify-content: center; */
     margin: 30px auto;
@@ -50,7 +50,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    height: 500px;
+    height: 400px;
 }
 
 .features .col-2 .item .icon {

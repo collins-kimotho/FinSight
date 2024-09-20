@@ -14,8 +14,8 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Features></Features>
-      <Banner></Banner>
       <FAQ></FAQ>
+      <Banner></Banner>
       <Footer></Footer>
 
 

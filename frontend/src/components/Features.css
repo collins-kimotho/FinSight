@@ -1,8 +1,8 @@
 .features {
     margin: auto;
     width: 100%;
-    padding: 4rem 1rem 0 1rem;
-    height: 100vh;
+    padding: 30px;
+    height: 80vh;
 
 }
 
@@ -38,7 +38,7 @@
     grid-template-columns: 1fr 1fr 1.2fr;
     /* align-items: center;
     justify-content: center; */
-    margin-top: 30px;
+    margin: 30px auto;
     /* margin: auto; */
     gap: 20px
 }
@@ -79,11 +79,16 @@
 }
 
 @media screen and (max-width: 940px) {
-    .features .container {
-        margin: auto;
-        padding: 4rem;
-    }
     .features .col-2 {
         grid-template-columns: 1fr;
     }
+
+    .features .col-2 .item {
+        height: 350px;
+    }
+
+    .features .col-2 .item:nth-child(3) {
+        border-top-right-radius: 0;
+    }
+    
 }

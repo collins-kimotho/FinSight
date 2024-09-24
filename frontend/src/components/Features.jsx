@@ -13,11 +13,13 @@ const Features = () => {
                 <p>Remove all the friction that stands in your way of your money goals</p>
             </div>
             <div className="col-2">
-                <div className="item">
-                    <div className="icon">
-                    <   FaMoneyBill></FaMoneyBill>
+            <div className="item">
+                <div className="icon">
+                    <FaMoneyBill></FaMoneyBill>
                     </div>
-                    <h3>Expense tracking</h3>                
+                    <div>
+                    <h3>Expense Tracking</h3>  
+                    </div>      
                     <p>Effortlessly monitor your daily, weekly, and monthly expenses in real-time, so you always know where your money is going.</p>
                     <p className='right'><FaArrowRight></FaArrowRight></p>
                 </div>
@@ -25,7 +27,9 @@ const Features = () => {
                 <div className="icon">
                     <FaMoneyBill></FaMoneyBill>
                     </div>
-                    <h3>Budgeting Made Simple</h3>                
+                    <div>
+                    <h3>Budgeting Made Simple</h3>  
+                    </div>       
                     <p>Set personalized budgets, track your progress, and receive alerts before you overspend.</p>
                     <p className='right'><FaArrowRight></FaArrowRight></p>
                 </div>
@@ -33,7 +37,9 @@ const Features = () => {
                 <div className="icon">
                     <FaMoneyBill></FaMoneyBill>
                     </div>
-                    <h3>Financial Goals</h3>                
+                    <div>
+                        <h3>Financial Goals</h3> 
+                    </div>            
                     <p>Save for the things that matter most. Whether it’s a new car, vacation, or emergency fund, our tools help you stay on track.</p>
                     <p className='right left'><FaArrowRight></FaArrowRight></p>
                     

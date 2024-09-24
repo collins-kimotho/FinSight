@@ -56,7 +56,7 @@ a {
     background-color: var(--primary-dark);
 
 }
-.logo {
+.logo{
     font-size: 2.5rem;
     color: var(--primary-color);
     font-style: italic;

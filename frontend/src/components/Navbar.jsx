@@ -8,7 +8,7 @@ const Navbar = () => {
    <div className="navbar" id='home'>
     <div className="container">
         <div className="logo">
-            <p>FinSight</p>
+         <Link  to='hero' spy={true} smooth={true} offset={50} duration={500}><p>FinSight</p></Link>
         </div>
         <ul className="list">
             <li className='list-item'>

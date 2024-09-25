@@ -1,27 +1,20 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer'
-import Banner from './components/Banner';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 
-
-
-function App() {
-  
+const App = () => {
   return (
-    <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Features></Features>
-      <FAQ></FAQ>
-      <Banner></Banner>
-      <Footer></Footer>
-
-
-    </>
-    
+    <Router basename='/FinSight'>
+      <Routes>
+        <Route index element= {<Home/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
-export default App
+export default App;

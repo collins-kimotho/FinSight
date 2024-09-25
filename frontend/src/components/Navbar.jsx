@@ -24,10 +24,10 @@ const Navbar = () => {
         <div className="login">
           <ul>
             <li className="list-item">
-              <RouterLink to='/login' className='login'>Login</RouterLink>
+                 <a href='/FinSight/login' target='_blank' rel='noopener noreferrer' className='login'>Login</a>
             </li>
             <li className="list-item">
-              <RouterLink to='/signup' className="Signup">Sign Up</RouterLink>
+                <a href='/FinSight/signup' target='_blank' rel='noopener noreferrer' className="Signup">Sign Up</a>
             </li>
           </ul>
         </div>

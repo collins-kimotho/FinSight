@@ -18,9 +18,7 @@ const SignupPage = () => {
     setEmail(event.target.value)
   }
 
-  function handlePasswordChange(event){
-    setPassword(event.target.value)
-  }
+
 
   return (
     <>
@@ -38,7 +36,7 @@ const SignupPage = () => {
             
             <form onSubmit={handleSubmit}>
               <input type="email" placeholder='Enter email' onChange={handleEmailChange}/> <br />
-              <input type="password" placeholder='Enter password'onChange={handlePasswordChange}/> <br />
+              <input type="password" placeholder='Enter password'/> <br />
               <button>Login</button>
             </form>
 

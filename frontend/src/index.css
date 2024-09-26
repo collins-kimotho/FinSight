@@ -1,7 +1,7 @@
 :root {
     --primary-color: hsl(120, 100%, 25%);
     --primary-dark: hsl(120, 100%, 15%);
-    --secondary-color: rgba(128, 128, 128, 0.623);
+    --secondary-color: rgb(128, 128, 128);
 
 
 }
@@ -42,4 +42,5 @@ ul {
 a {
     text-decoration: none;
 }
+
 

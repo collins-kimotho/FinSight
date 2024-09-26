@@ -3,7 +3,7 @@
 ## Introduction
 FinSight is a personal finance and budgeting application designed to help users track their expenses, manage their budgets, and gain insights into their spending habits. Built with React on the frontend and Flask on the backend, FinSight leverages REST APIs to facilitate seamless communication between the client and server.
 
-**Deployed Site:** 
+**Deployed Site:** [Page]
 **Final Project Blog Article:** [FinSight Blog Post](http://your-blog-article-link.com)
 
 **Author(s) LinkedIn:**

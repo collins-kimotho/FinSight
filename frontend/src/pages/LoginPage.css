@@ -1,4 +1,62 @@
-.signup .container {
+
+
+.login .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 100px auto 0;
+
+}
+
+.login .container .col-1 {
+    /* background-color: hsla(120, 100%, 25%, 0.678); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+    height: 100%;
+}
+
+.login .container .col-1 p{
+    /* color: white; */
+    font-size: 2rem;
+    text-align: center;
+}
+.login .container .image {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.login .container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login .container .col-2 {
+    /* background-color: var(--secondary-color) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.login .container .col-2 input {
+    padding: 20px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    /* border-radius: 5px; */
+}
+
+.login .container .col-2 button {
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: end;
 }

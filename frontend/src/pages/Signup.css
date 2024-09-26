@@ -36,11 +36,10 @@
 .signup .container .image img{
     width: 100%;
     height: 100%;
-    object-fit: cover; */
+    object-fit: cover;
 }
 
 .signup .container .col-2 {
-    /* background-color: var(--secondary-color) */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,5 +58,8 @@
 
 .signup .container .col-2 button {
     font-size: 1.5rem;
-    margin: 20px 20px;
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: end;
 }

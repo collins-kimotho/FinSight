@@ -1,10 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
 import save from '../assets/save.jpg'
 import './Signup.css'
 import Footer from '../components/Footer'
 
 const SignupPage = () => {
+
+const [email, setEmail] = useState("")
+const [password, setPassword] = useState("")
+const [confirmPW, setConfirmPW] = useState("")
+const [firstName, setFirstName] = useState("")
+const [lastName, setLastName] = useState("")
+
+function preventDefault(event){
+  event.preventDefault();
+}
+
+function handleEmailChange(event){
+  setEmail(event.target.value);
+}
+
+function handlePasswordChange(event){
+  setPassword(event.target.value);
+}
+
+function handleConfirmPWChange(event){
+  setConfirmPW(event.target.value);
+}
+
+function handleFirstNameChange(event){
+  setFirstName(event.target.value);
+}
+
+function handleLastNameChange(event){
+  setLastName(event.target.value);
+}
   return (
     <>
       <Navbar></Navbar>
@@ -18,12 +48,12 @@ const SignupPage = () => {
           </div>
           <div className="col-2">
             <h2>Signup</h2>
-            <form action="">
-              <input type="text" placeholder='First Name' /> <br />
-              <input type="text" placeholder='Last Name' /> <br />
-              <input type="email" placeholder='Enter email' /> <br />
-              <input type="password" placeholder='Enter password'/> <br />
-              <input type="password" placeholder='Confirm password' /> <br />
+            <form onSubmit={preventDefault}>
+              <input type="text" placeholder='First Name' onChange={handleFirstNameChange}/> <br />
+              <input type="text" placeholder='Last Name' onChange={handleLastNameChange}/> <br />
+              <input type="email" placeholder='Enter email' onChange={handleEmailChange}/> <br />
+              <input type="password" placeholder='Enter password' onChange={handlePasswordChange}/> <br />
+              <input type="password" placeholder='Confirm password' onChange={handleConfirmPWChange}/> <br />
               <button>Sign Up</button>
             </form>
 
